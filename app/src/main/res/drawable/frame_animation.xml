@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:drawable	当前帧引用的drawable资源
+android:duration	当前帧显示的时间（毫秒为单位）
+android:oneshot	    如果为true，表示动画只播放一次停止在最后一帧上，如果设置为false表示动画循环播放。
+android:variablePadding	   boolean型，默认为false，当设置为true时，则drawable的padding值随当前选择的状态而改变。
+android:visible	    规定drawable的初始可见性，默认为flase
+-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false" >
+    <item android:drawable="@mipmap/frame1"
+          android:duration="500"/>
+    <item android:drawable="@mipmap/frame2"
+          android:duration="500"/>
+    <item android:drawable="@mipmap/frame3"
+          android:duration="500"/>
+    <item android:drawable="@mipmap/frame4"
+          android:duration="500"/>
+    <item android:drawable="@mipmap/frame5"
+          android:duration="500"/>
+</animation-list>

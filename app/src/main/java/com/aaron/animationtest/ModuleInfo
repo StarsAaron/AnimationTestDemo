@@ -1,0 +1,9 @@
+动画例子
+
+（1）Frame动画
+（2）Tween动画 （透明度，平移，伸缩，旋转）
+
+（3）属性动画 （ObjectAnimate，ValueAnimate）
+
+（4）View 动画方法
+（5）ViewGroup 动画
